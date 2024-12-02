@@ -1,0 +1,78 @@
+/* General Styles */
+.about-us {
+  font-family: 'Arial', sans-serif;
+  padding: 40px; /* Padding using px */
+  background-color: #f0f4f8; /* Soft light background */
+  color: #333; /* Dark text for contrast */
+}
+
+/* Header Styles */
+.about-header {
+  text-align: center;
+  margin-bottom: 40px; /* Margin using px */
+}
+
+.about-header h1 {
+  font-size: 36px; /* Larger font size for main title */
+  color: #2c3e50; /* Dark blue */
+}
+
+.about-header p {
+  font-size: 18px; /* Increased font size for subtitle */
+  color: #7f8c8d; /* Grey for subtitle */
+}
+
+/* Section Styles */
+.about-section,
+.categories-section,
+.about-company {
+  margin-bottom: 40px; /* Margin using px */
+  padding: 30px; /* Increased padding for sections */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+  background-color: #ffffff; /* White background for sections */
+}
+
+/* Section Heading Styles */
+.about-section h2,
+.categories-section h2,
+.about-company h2 {
+  font-size: 28px; /* Section heading size */
+  color: #2980b9; /* Bright blue for section headings */
+  margin-bottom: 20px; /* Spacing below section headings */
+}
+
+/* Category Card Styles */
+.category-card {
+  margin: 20px 0; /* Margin using px */
+  padding: 20px; /* Padding for cards */
+  border: 2px solid #2980b9; /* Blue border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #ecf0f1; /* Light grey background */
+  transition: transform 0.3s; /* Smooth transition for hover */
+}
+
+.category-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.category-card h3 {
+  font-size: 24px; /* Title size */
+  color: #2c3e50; /* Dark blue for card titles */
+}
+
+.category-card p {
+  font-size: 16px; /* Card text size */
+  color: #34495e; /* Darker grey for card text */
+}
+
+/* Company Info Styles */
+.about-company p {
+  font-size: 16px; /* Company info text size */
+  margin: 10px 0; /* Margin above and below */
+}
+
+/* Media Query for Responsiveness */
+@media (min-width: 768px) {
+  /* No specific styles needed for our team */
+}
